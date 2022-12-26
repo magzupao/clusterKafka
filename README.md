@@ -129,4 +129,9 @@ consumer:
 ./bin/kafka-console-consumer.sh --topic test --from-beginning --bootstrap-server localhost:9092
 ```
 
+lista topic
+```
+./bin/kafka-topics.sh --bootstrap-server=localhost:9092 --list
+```
+  
 En este punto tenemos el cluster Kafka operativo
